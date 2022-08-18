@@ -1,10 +1,10 @@
 {
   "_format": "ethers-rs-sol-cache-2",
   "files": {
-    "/Users/jawaun/PonziGame/lib/ds-test/src/test.sol": {
-      "lastModificationDate": 1660821065898,
-      "contentHash": "962996f0e05d5218857a538a62d7c47e",
-      "sourceName": "lib/ds-test/src/test.sol",
+    "/Users/jawaun/PonziGame/src/GradualPonzi.sol": {
+      "lastModificationDate": 1660837259444,
+      "contentHash": "e31e50dafd011da44e46d54439ea6786",
+      "sourceName": "src/GradualPonzi.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -28,44 +28,10 @@
         }
       },
       "imports": [],
-      "versionRequirement": ">=0.5.0",
+      "versionRequirement": "^0.8.10",
       "artifacts": {
-        "DSTest": {
-          "0.8.10+commit.fc410830.Darwin.appleclang": "test.sol/DSTest.json"
-        }
-      }
-    },
-    "/Users/jawaun/PonziGame/src/Ponzi.sol": {
-      "lastModificationDate": 1660835784342,
-      "contentHash": "a46bcbf1ead38a3e035ffa41b062df3a",
-      "sourceName": "src/Ponzi.sol",
-      "solcConfig": {
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "": [
-                "ast"
-              ],
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers"
-              ]
-            }
-          },
-          "evmVersion": "london"
-        }
-      },
-      "imports": [],
-      "versionRequirement": "=0.8.10",
-      "artifacts": {
-        "PonziGame": {
-          "0.8.10+commit.fc410830.Darwin.appleclang": "Ponzi.sol/PonziGame.json"
+        "GradualPonzi": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "GradualPonzi.sol/GradualPonzi.json"
         }
       }
     },
@@ -100,42 +66,6 @@
       "artifacts": {
         "PonziGame": {
           "0.8.10+commit.fc410830.Darwin.appleclang": "PonziGame.sol/PonziGame.json"
-        }
-      }
-    },
-    "/Users/jawaun/PonziGame/src/test/Contract.t.sol": {
-      "lastModificationDate": 1660821065127,
-      "contentHash": "7016738fe305fd90c36ea69a5cb2a78c",
-      "sourceName": "src/test/Contract.t.sol",
-      "solcConfig": {
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "": [
-                "ast"
-              ],
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers"
-              ]
-            }
-          },
-          "evmVersion": "london"
-        }
-      },
-      "imports": [
-        "lib/ds-test/src/test.sol"
-      ],
-      "versionRequirement": "=0.8.10",
-      "artifacts": {
-        "ContractTest": {
-          "0.8.10+commit.fc410830.Darwin.appleclang": "Contract.t.sol/ContractTest.json"
         }
       }
     }
